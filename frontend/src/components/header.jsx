@@ -36,6 +36,9 @@ export const HeaderElement = () => {
                         <Link>News</Link>
                         <Link>Football</Link>
                         <Link>Livescores</Link>
+                        <Link>Betting tips</Link>
+                        <Link>Sign up</Link>
+                        <Link>Sign in</Link>
                     </nav>
                 </div>
             </div>
