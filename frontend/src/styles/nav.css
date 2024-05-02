@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 2px 2px 2px gray;
+    font-size: 1.3rem;
+    z-index: 1;
+    background-color: black;
+}
+
+.nav-button{
+    /* float: right; */
+    padding: 2rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.socials-float-left{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: 40%;
+}
+.socials-logo{
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.nav-search{
+    width: 60%;
+}
+.nav-search input{
+    width: 98%;
+    padding: 1rem;
+    outline: 1px solid white;
+    border: none;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.nav-bottom .bars{
+    display: none;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+/* .nav-bar-section{
+    display: flex;
+} */
+.nav-bar-section nav a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 1rem;
+}
+.football-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.logo-football-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
