@@ -9,8 +9,9 @@ const { notFoundPage } = require("./middleware/notfoundpage");
 const cooker_parser = require("cookie-parser");
 const path = require("path");
 const cors = require("cors");
-const adminRouter = require("./routers/admin")
-const footballRouter = require("./routers/football")
+const adminRouter = require("./routers/admin");
+const footballRouter = require("./routers/football");
+const writeUp = require("./routers/landing");
 
 app.use(express.json());
 app.use(cooker_parser());
@@ -23,12 +24,13 @@ app.use(cors({
 
 app.use('/api/v1/admin', adminRouter);
 app.use("/api/v1/football", footballRouter);
+app.use("/api/v1/landing", writeUp);
 
 app.use(notFoundPage)
 app.use(errorHandler);
 
 
-async function starter () {
+async function starter() {
   try {
     const db = await connectDB();
     if (db) {

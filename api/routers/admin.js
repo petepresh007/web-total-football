@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {createAdmin, loginAdmin, persistLogin, logoutAdmin} = require("../controllers/admin");
+const { createAdmin, loginAdmin, persistLogin, logoutAdmin } = require("../controllers/admin");
 
 
 router.post('/registeradm', createAdmin);

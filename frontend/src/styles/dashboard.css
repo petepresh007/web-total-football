@@ -1,0 +1,100 @@
+.dashboard {
+    margin-top: 20rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+}
+
+.dashboard input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #eee;
+    background: rgba(0, 0, 0, .5);
+    font-size: 1.5rem;
+    color: white;
+}
+
+.length-nav .len {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.link-adm {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+.link-adm a{
+    text-decoration: none;
+    color: #eee;
+}
+.link-adm a:not(:first-child){
+    margin-left: 1.5rem;
+}
+.dashboard-center{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dashboard-center-right{
+    width: 50%;
+    background: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    max-height: 800px;
+    overflow-y: auto;
+    position: relative;
+}
+.dash-news-disp-cen{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+}
+.admin-update-form{
+    position: fixed;
+    top: 400px;
+    padding: 1rem;
+    width: 800px;
+    background: black;
+}
+.admin-update-form .edit-close{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.admin-update-form input{
+    width: 96%;
+    background: rgba(0, 0, 0, .5);
+}
+.admin-update-form textarea{
+    width: 96%;
+    padding: 1rem;
+    margin-top: 1rem;
+    height: 150px;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+}
+.admin-update-form select{
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+}
+.admin-update-form button{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: gray;
+    color: white;
+    font-size: 1.3rem;
+}

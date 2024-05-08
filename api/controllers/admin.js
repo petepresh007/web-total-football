@@ -54,7 +54,8 @@ const loginAdmin = async (req, res) => {
   /** GENERATING A TOKEN */
   const token = JWT.sign({ username: Admins.username, id: Admins._id },
     process.env.JWT_SECRET, { expiresIn: '30d' });
-  return res.cookie('adminToken', token,
+
+  res.cookie('adminToken', token,
     { httpOnly: true, sameSite: 'none', secure: true })
     .status(200).json({ user: { username: Admins.username } });
 };
@@ -69,10 +70,11 @@ const persistLogin = (req, res) => {
           console.log('error verifying token', err);
           res.status(500).json({ msg: 'errr, internal server error' });
         } else {
-          console.log(decode);
           res.status(200).json(decode);
         }
       });
+    } else {
+      console.log("No token")
     }
   } catch (error) {
     console.log(error);

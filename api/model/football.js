@@ -13,7 +13,7 @@ const footballSchema = new mongoose.Schema({
   file: Array,
   category: {
     type: String,
-    enum: ['news', 'EPL', 'Laliga', 'Serie A', 'Bundesliga', 'NPFL', 'Others'],
+    enum: ['News', 'EPL', 'Laliga', 'Serie A', 'Bundesliga', 'NPFL', 'Others', 'UCL'],
     required: [true, 'a category is needed..']
   },
   date: Date,
@@ -22,6 +22,6 @@ const footballSchema = new mongoose.Schema({
     required: [true, 'the creator is required']
   }
 
-}, {timestamps: true});
+}, { timestamps: true });
 
 module.exports = mongoose.model("Football", footballSchema)

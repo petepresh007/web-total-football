@@ -1,0 +1,161 @@
+.hompage {
+    margin-top: 17rem;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.home-top-display img {
+    width: 100%;
+    height: 900px;
+    opacity: 1;
+    image-resolution: 100%;
+}
+
+.home-top-display {
+    position: relative;
+}
+
+.home-top-display p {
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    width: 45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.home-bottom {
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.8rem;
+}
+
+.home-bottom-center-first {
+    display: flex;
+    /* align-items: center; */
+    gap: 25px;
+}
+
+.bottom-right {
+    max-height: 1000px;
+    overflow-y: auto;
+    width: 30%;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+.home-right-cont:not(:last-child) {
+    padding: .2rem;
+    border-bottom: 1px solid gray;
+}
+
+.bottom-left {
+    width: 70%;
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.bottom-left-cont img {
+    width: 100%;
+    height: 250px;
+}
+
+.bottom-left-cont {
+    background-color: rgba(0, 0, 0, .5);
+    width: 400px;
+    height: 500px;
+}
+
+.bottom-left-cont p,
+.bottom-left-cont small {
+    padding: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.home-arrow {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.epl-center,
+.football-news-center {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+
+}
+
+.EPL img,
+.football-news-details img {
+    width: 100%;
+    height: 300px;
+}
+
+.epl-single,
+.football-news-details {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+.selected-news {
+    margin-top: 20rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin-bottom: 4rem;
+}
+
+.selected-news-images {
+    display: flex;
+    width: 100%;
+}
+
+.selected-news-images img {
+    height: 400px;
+    width: 10%;
+    flex: 1
+}
+
+.selected-news-center {
+    display: flex;
+    justify-content: center;
+}
+
+.h-n {
+    width: 1000px;
+}
+
+.bottom-left-cont p {
+    cursor: pointer;
+}
+
+.epl-single p {
+    cursor: pointer;
+}
+
+.football-news {
+    margin-top: 20rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.football-news-details h1{
+    cursor: pointer;
+}

@@ -61,7 +61,7 @@ header{
 } */
 .nav-bar-section nav a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: white;
     margin-left: 1.3rem;
 }
@@ -74,4 +74,28 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.home-caret {
+    margin-left: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.home-caret:hover{
+    rotate: 180deg;
+}
+
+.news-section{
+    display: none;
+}
+.news-section a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+.show-news-nav{
+    display: block;
 }

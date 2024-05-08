@@ -1,0 +1,87 @@
+.login-admin {
+    margin-top: 30rem;
+    width: 100%;
+}
+
+.login-admin-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-admin-center-details {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    width: 450px;
+}
+.login-admin-center-details input{
+    width: 92.7%;
+    padding: 1rem;
+    outline: gray;
+    border: none;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+.login-admin-center-details button{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+.create-news{
+    margin-top: 26rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-news-center{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    width: 600px;
+}
+.create-news-center input{
+    width: 94%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin-bottom: .6rem;
+    font-size: 1.2rem;
+}
+.create-news-center textarea{
+    width: 94%;
+    height: 200px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.create-news-center select{
+    width: 99%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.create-news-center button{
+    width: 99%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+}
+.aifr{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.avar-file{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

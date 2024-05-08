@@ -1,7 +1,7 @@
 export const Footer = () =>{
     return(
-        <div>
-            loading footer...
+        <div className="footer">
+            &copy;copyright preciouspeter {new Date().getFullYear()}
         </div>
     )
 }
